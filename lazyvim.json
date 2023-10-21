@@ -1,11 +1,8 @@
 {
-  "extras": [
-    "lazyvim.plugins.extras.editor.leap",
-    "lazyvim.plugins.extras.editor.mini-files",
-    "lazyvim.plugins.extras.editor.navic"
-  ],
+  "extras": [],
   "news": {
     "NEWS.md": "2123"
   },
   "version": 2
 }
+
