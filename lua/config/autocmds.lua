@@ -12,6 +12,5 @@ vim.api.nvim_create_autocmd({ "BufEnter", "BufWritePost", "InsertLeave" }, {
   end,
 })
 
-vim.keymap.set("n", "<leader>gl", function()
-  lint.try_lint()
-end, { desc = "Trigger linting" })
+-- stylua: ignore
+vim.keymap.set("n", "<leader>gl", function() lint.try_lint() end, { desc = "Trigger linting" })

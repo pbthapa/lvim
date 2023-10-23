@@ -8,6 +8,8 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 1
 
 require("lazy").setup({
   spec = {
@@ -16,7 +18,6 @@ require("lazy").setup({
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.json" },
-    { import = "lazyvim.plugins.extras.ui.mini-animate" },
     { "christoomey/vim-tmux-navigator" },
     { "szw/vim-maximizer" },
     -- import/override with your plugins

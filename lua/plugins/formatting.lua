@@ -3,7 +3,7 @@ return {
   event = { "BufReadPre", "BufNewFile" },
   keys = {
     {
-      "<leader>f",
+      "<leader>mp",
       mode = { "n", "v" },
       desc = "Format this file",
       function()
