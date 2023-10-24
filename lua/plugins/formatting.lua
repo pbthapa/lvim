@@ -27,6 +27,7 @@ return {
       yaml = { "prettier" },
       lua = { "stylua" },
       python = { "isort", "black" },
+      java = { "google-java-format" },
     },
   },
 }

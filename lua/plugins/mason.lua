@@ -30,6 +30,7 @@ return {
         "pyright",
         "sqlls",
         "yamlls",
+        "jdtls",
       },
     })
 
@@ -41,6 +42,7 @@ return {
         "black",
         "pylint",
         "eslint_d",
+        "google-java-format",
       },
     })
   end,
