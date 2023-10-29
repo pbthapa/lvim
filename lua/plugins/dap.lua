@@ -48,7 +48,7 @@ return {
     },
     config = function()
       require("mason-nvim-dap").setup({
-        ensure_installed = { "python" },
+        ensure_installed = { "python", "javadbg", "javatest", "bash" },
         automatic_installation = true,
       })
     end,
